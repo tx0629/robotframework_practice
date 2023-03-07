@@ -6,4 +6,4 @@
 EX:select frame 、handle alert等
 ## mouse
 學習滑鼠相關KEYWORD
-EX:drag and drop
+EX:drag and drop、double click
