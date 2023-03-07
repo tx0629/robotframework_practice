@@ -1,6 +1,7 @@
 *** Settings ***
 Library           SeleniumLibrary
 
+
 *** Test Cases ***
 mouse_action
     Open browser    https://swisnl.github.io/jQuery-contextMenu/demo.html    chrome
