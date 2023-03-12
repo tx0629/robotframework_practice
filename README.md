@@ -14,3 +14,5 @@ EX:drag and drop、double click
 快速到最上面及最下面還有根據pixel滾動
 ## for_loop
 熟悉LOOP使用
+## table_operation
+計算表格行列、確認特定行列的文字與數值
