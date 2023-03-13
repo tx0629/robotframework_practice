@@ -16,3 +16,5 @@ EX:drag and drop、double click
 熟悉LOOP使用
 ## table_operation
 計算表格行列、確認特定行列的文字與數值
+## Count_&_Extract_Link_text
+計算網頁中的連結數量並讀取文字
