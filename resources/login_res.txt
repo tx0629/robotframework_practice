@@ -1,0 +1,30 @@
+*** Settings ***
+Library           SeleniumLibrary
+
+*** Variables ***
+${Login_URL}      https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F
+${Browser}        chrome
+
+*** Keywords ***
+Open_web
+    Open browser    ${Login_URL}    ${Browser}
+    Maximize Browser Window
+
+Close_Browser
+    Close All Browsers
+
+Input_username
+    [Arguments]    ${username}
+    input text    //*[@id="Email"]    ${username}
+
+Input_password
+    [Arguments]    ${password}
+    input text    //*[@id="Password"]    ${password}
+
+Click_login_bottom
+    Click Element    //*[@class="button-1 login-button"]
+
+Click_logout
+    click element    //*[@id="navbarText"]/ul/li[3]/a
+Error_msg_should_visible
+    page should contain   Login was unsuccessful
