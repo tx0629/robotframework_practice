@@ -20,5 +20,8 @@ EX:drag and drop、double click
 計算網頁中的連結數量並讀取文字
 ## Data_driven_test
 使用 resources中的txt 作為resource file
-定義keyword在 txt中　註：其中不能包含test case但去掉後ride讀不出來，猜測可能是版本太舊
+定義keyword在 txt中　
+註：其中不能包含test case但要完全去掉不能留空，
+If you leave the Test cases section empty in the file that you are going to execute, Robot will think you have no test cases to execute.by stackoverflow
+，不過ride讀不出來，猜測可能是版本太舊
 對網頁登入進行測試
