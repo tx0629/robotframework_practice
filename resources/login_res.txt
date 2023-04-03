@@ -26,5 +26,12 @@ Click_login_bottom
 
 Click_logout
     click element    //*[@id="navbarText"]/ul/li[3]/a
+
 Error_msg_should_visible
-    page should contain   Login was unsuccessful
+    page should contain    Login was unsuccessful
+
+After_login_should_contain_Dashboard
+    page should contain    Dashboard
+
+After_logout_should_contain
+    page should contain    Admin area demo
