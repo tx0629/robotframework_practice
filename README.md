@@ -28,4 +28,4 @@ Import resource後便可以在External resource中正常讀取 resource檔案
 對網頁登入進行測試，測試正確帳號密碼，帳密錯誤輸入以及登出功能
 ## POM_pratice
 Page object model 將網頁上的物件位置寫在一個python檔中，建立user keyword在resource中<br>
-避免網頁中物件改的時候，每一個用到的testcase都要修改
+避免網頁中物件被修改之後，每一個用到的testcase都要修改
